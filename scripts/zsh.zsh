@@ -22,3 +22,7 @@ ln -S -T "$(pwd)/../config/zshrc" $HOME/.zshrc
 
 # 2 antigenrc file
 ln -S -T "$(pwd)/../config/antigenrc" $HOME/.antigenrc
+
+# setting zsh as default shell
+echo "Set zsh as your default shell"
+chsh -s /bin/zsh $(whoami)
