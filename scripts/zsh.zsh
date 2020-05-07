@@ -1,3 +1,5 @@
+#!/bin/zsh
+
 # oh-my-zsh
 # dependency - zsh, curl, wget, git
 echo "Installing Ohmyzsh"
