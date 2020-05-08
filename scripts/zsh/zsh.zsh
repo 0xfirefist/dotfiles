@@ -20,10 +20,10 @@ echo "Adding config files to home directory"
 if [ -f $HOME/.zshrc ] ; then
     rm $HOME/.zshrc
 fi
-ln -S -T "$(pwd)/../config/zshrc" $HOME/.zshrc
+ln -s -T "$(pwd)/../../config/zshrc" $HOME/.zshrc
 
 # 2 antigenrc file
-ln -S -T "$(pwd)/../config/antigenrc" $HOME/.antigenrc
+ln -s -T "$(pwd)/../../config/antigenrc" $HOME/.antigenrc
 
 # setting zsh as default shell
 echo "Set zsh as your default shell"
