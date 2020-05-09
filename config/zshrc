@@ -13,6 +13,12 @@ alias lk="colorls --sd -A"
 alias l="colorls"
 alias c="clear"
 alias e="exit"
+# git alias
+alias dif="git diff"
+alias sta="git status"
+alias com="git commit -m"
+alias add="git add"
+
 alias logout="loginctl terminate-user"
 
 # Config
