@@ -1,10 +1,7 @@
 # DotFiles
 ### Tools and Plugins :
-- [ ] i3-gaps
-    * polybar
-    * feh
-    * compton
-    * rofi
+- [ ] tilix - terminal emulator
+    - fonts  
 - [ ] zsh
     * oh-my-zsh, antigen
         * git
@@ -18,6 +15,11 @@
         * theme bhilburn/powerlevel9k powerlevel9k
         * [ ] font for powerlevel9k 
     * z
+- [ ] polybar
+- [ ] compton
+- [ ] i3-gaps
+    * feh
+    * rofi
 - [ ] neovim
     * vim plug
         * scrooloose/nerdtree
