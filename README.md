@@ -21,7 +21,7 @@
     * z
 - [x] polybar
 - [ ] compton
-- [ ] i3-gaps
+- [x] i3-gaps
     * feh
     * rofi
 - [x] neovim
