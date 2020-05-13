@@ -1,7 +1,12 @@
 # DotFiles
 ### Tools and Plugins :
-- [ ] tilix - terminal emulator
-    - fonts  
+- [x] tilix - terminal emulator
+- [x] fonts - installed in ~/.fonts
+    - Nerd Fonts  
+        - Hack 
+        - Hermit 
+        - OpenDyslexic 
+        - ShareTechMono
 - [x] zsh
     * oh-my-zsh, antigen
         * git
