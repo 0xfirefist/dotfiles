@@ -30,3 +30,5 @@ POWERLEVEL9K_PROMPT_ON_NEWLINE=false
 # z plugin 
 . ~/.z.sh
 
+# to display quotes
+motivate
