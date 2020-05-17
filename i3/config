@@ -41,7 +41,7 @@ bindsym $mod+Shift+q kill
 
 # start dmenu (a program launcher)
 # bindsym $mod+d exec dmenu_run
-bindsym $mod+d exec rofi -show run
+bindsym $mod+d exec rofi -show drun
 
 # change focus
 bindsym $mod+j focus left
@@ -198,5 +198,3 @@ exec --no-startup-id polybar base
 # execute startup commands
 # background setup
 exec --no-startup-id feh --bg-scale config/background/ironman.jpg
-
-
