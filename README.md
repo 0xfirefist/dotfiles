@@ -19,6 +19,7 @@
         * ael-code/zsh-colored-man-pages
         * theme bhilburn/powerlevel9k powerlevel9k
     * z
+    * colorls
 - [x] polybar
 - [ ] compton
 - [x] i3-gaps
