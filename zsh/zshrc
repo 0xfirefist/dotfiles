@@ -9,8 +9,10 @@ antigen init ~/.antigenrc
 source $ZSH/oh-my-zsh.sh
 
 # Alias 
-alias lk="colorls --sd -A"
-alias l="colorls"
+alias ls="colorls"
+alias ls -a="colorls -a"
+alias ls -l="colorls -l"
+alias ls -la="colorls -la"
 alias c="clear"
 alias e="exit"
 # git alias

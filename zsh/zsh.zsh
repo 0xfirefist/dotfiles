@@ -28,3 +28,19 @@ ln -s -T "$(pwd)/antigenrc" $HOME/.antigenrc
 # setting zsh as default shell
 echo "Set zsh as your default shell"
 chsh -s /bin/zsh $(whoami)
+
+# adding colorls config
+rm -rf "$HOME/.config/colorls"
+ln -s -T "$(pwd)/colorls" "$HOME/.config/colorls"   
+
+
+
+
+
+
+
+
+
+
+
+
