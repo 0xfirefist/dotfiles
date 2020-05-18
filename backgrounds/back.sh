@@ -1,5 +1,5 @@
 #!/bin/sh
 
-mkdir $HOME/.config/background
-cp -u * $HOME/.config/background
+rm -rf $HOME/.config/background
+ln -s -T "$(pwd)/image" $HOME/.config/background  
 
