@@ -19,11 +19,13 @@ antigen init ~/.antigenrc
 alias ls="colorls"
 alias c="clear"
 alias e="exit"
+alias vim="nvim"
 # git alias
 alias dif="git diff"
 alias sta="git status"
 alias com="git commit -m"
 alias add="git add"
+alias pus="git push origin master"
 
 # z plugin 
 . ~/.z.sh
