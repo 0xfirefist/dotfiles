@@ -7,9 +7,13 @@ fi
 
 # Path exports
 export GOPATH=$HOME/go
-export PATH=$PATH:$HOME/go/bin
+export PATH=$PATH:$HOME/go/bin:$HOME/.rbenv/bin
+
+# ruby setup 
+eval "$(rbenv init -)"
 
 # Alias 
+# temp
 alias c="clear"
 alias e="exit"
 alias vim="nvim"
@@ -17,6 +21,7 @@ alias vim="nvim"
 alias dif="git diff"
 alias sta="git status"
 alias com="git commit -m"
+alias coms="git commit -s -m"
 alias add="git add"
 alias pus="git push origin master"
 
